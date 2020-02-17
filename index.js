@@ -1,5 +1,7 @@
 // Code your solution in this file.
 
-function lowerCaseDrivers(array, name){
-  return array.map(name = name.toLowerCase())
+function lowerCaseDrivers(array) {
+  return array.map(function(name) {
+    return name.toLowerCase();
+  });
 }
