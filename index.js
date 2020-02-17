@@ -5,3 +5,7 @@ function lowerCaseDrivers(array) {
     return name.toLowerCase();
   });
 }
+
+function nameToAttributes() {
+  
+}
